@@ -1,0 +1,32 @@
+sub sa
+ if indexx>0 then
+ print index
+ suma=suma+index
+ index=index-1
+ sa
+ endif
+endsub
+
+sub sc
+ print a
+ a=a+1
+ sc
+endsub
+
+sub sb
+ for i=0 to index
+ print i
+ suma=suma+i
+ next i
+endsub
+
+a=0
+suma=0
+index=10
+sa
+print suma
+suma=0
+index=10
+sb
+print suma
+sc
